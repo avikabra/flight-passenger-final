@@ -12,7 +12,7 @@ public class FirstPassengerWithPet extends FirstPassenger{
     }
     
     public FirstPassengerWithPet (String name, String meal, String dessert, String drink, String petName, String species) {
-        super(name, meal, dessert, drink);
+        super();
         super.setPetName(petName);
         this.species = species;
     }
